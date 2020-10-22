@@ -1,5 +1,5 @@
 function lastUpdated(){
-    var lastUpdateTimeStamp = new Date(document.lastModified);
+    var lastUpdateTimeStamp = document.lastModified;
     document.getElementById("lastUpdate").innerHTML = lastUpdateTimeStamp;
 }
 
