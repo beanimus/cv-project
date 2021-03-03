@@ -3,8 +3,19 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightgrey;
 }
-
+header{
+    display: block;
+    border: 5px black;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
 /* ids */
-#header
+#header{
+    display: block;
+    border: 3px blue;
+    padding: 5px 5px 5px 5px;
+}
 
 /* classes */
